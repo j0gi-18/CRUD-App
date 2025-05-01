@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #fff8f0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f08080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  header .logo {
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .logo h1 {
+    color: #fff;
+    margin-top: 5px;
+  }
+  
+  .left-links, .right-links {
+    display: flex;
+    gap: 15px;
+  }
+
+  .left-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .left-links a:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #fff, 0 0 20px #ffd700, 0 0 30px #ffa500;
+  }
+  
+  
+  .left-links a,
+  .right-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Body */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .search-section {
+    margin-bottom: 40px;
+  }
+  
+  .search-section input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-section button {
+    padding: 10px 20px;
+    background-color: #f08080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .recipes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .recipe-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+
+  .recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recipe-card p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: #f08080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
